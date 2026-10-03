@@ -1,12 +1,12 @@
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums: list[int], target: int) -> list[int]:
         seen = {}
 
-        for i, num in enumerate(nums):
-            complement = target - num
+        for i, value in enumerate(nums):
+            compliment = target - value 
 
-            if complement in seen:
-                return [seen[complement] , i]
-
-            seen[num] = i
-        return []    
+            if compliment in seen:
+                return [seen[compliment], i]
+            seen[value] = i
+        return []
+        
