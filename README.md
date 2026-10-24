@@ -48,3 +48,4 @@ If I want to sync my solutions immediately rather than waiting for the nightly c
 
 ## 📜 Disclaimer
 The automation script fetches and syncs code files directly from my personal LeetCode account. All problem descriptions and original constraints belong entirely to [LeetCode](https://leetcode.com).
+When the leetcode session expires change the variables accordingly To continue Autosync with Github.
