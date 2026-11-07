@@ -18,5 +18,4 @@ class Solution(object):
             if current_window_sum > max_sum:
                 max_sum = current_window_sum
 
-        return max_sum / float(k) 
-
+        return max_sum / float(k)
