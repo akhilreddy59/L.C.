@@ -43,6 +43,7 @@ If I want to sync my solutions immediately rather than waiting for the nightly c
 2. Select the **Sync LeetCode Submissions** workflow on the left sidebar.
 3. Click the **Run workflow** dropdown menu on the right.
 4. Click the green **Run workflow** button.
+5. Change the automation execution time Based on the recruitment in the yml file.
 
 ---
 
