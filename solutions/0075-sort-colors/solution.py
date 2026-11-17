@@ -3,21 +3,18 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        # Dutch National Flag Algorithm
-        low = 0
-        mid = 0
-        high = len(nums)-1
+        s, mid = 0, 0
+        e = len(nums)-1
 
-        while mid <= high:
+        while mid <= e:
             if nums[mid] == 0:
-                nums[mid],nums[low] = nums[low], nums[mid]
-                low +=1
+                nums[mid], nums[s] = nums[s], nums[mid]
                 mid +=1
-
+                s +=1
             elif nums[mid] == 1:
                 mid +=1
-            else: #nums[mid] = 2
-                nums[high], nums[mid] = nums[mid], nums[high]
-                high -=1
-        
+            else: #nums[mid] == 2:
+                nums[mid], nums[e] = nums[e], nums[mid]
+                e -=1
 
+        return nums
